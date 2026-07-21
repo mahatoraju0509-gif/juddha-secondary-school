@@ -5,6 +5,8 @@ import Navbar from "../components/Navbar";
 import SEO from "../components/SEO";
 import Developer from "../components/Developer";
 import LiveClock from "../components/LiveClock";
+import WhatsAppFloat from "../components/WhatsAppFloat";
+import LocationMap from "../components/LocationMap";
 import schoolPhoto from "../assets/school-photo.png";
 
 const emptyTeachers = Array.from({ length: 30 }, (_, i) => ({
@@ -143,7 +145,10 @@ export default function Home() {
         </section>
       </main>
 
+      <LocationMap />
+
       <Developer />
+      <WhatsAppFloat />
 
       <footer>
         <p>श्री जुद्ध माध्यमिक विद्यालय, गौर | Developed by Raju Mahato</p>
