@@ -1817,3 +1817,41 @@ a.nav-tab[href="/developer"] span:last-child {
     gap: 5px;
   }
 }
+
+/* ===== Developer Bio Page - Extended Styling ===== */
+.dev-title-section {
+  background: linear-gradient(135deg, #fdf9ee, #f5edd8) !important;
+  border-left: 4px solid #ffd166;
+}
+.dev-subtitle {
+  font-style: italic;
+  color: #b8860b;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+.dev-quote-section {
+  background: #0f172a !important;
+  text-align: center;
+}
+.dev-quote {
+  color: #ffd166 !important;
+  font-style: italic;
+  font-size: 15px !important;
+  line-height: 1.8 !important;
+}
+.dev-quote-author {
+  color: #ff8c42 !important;
+  font-weight: 700;
+  margin-top: 10px !important;
+}
+.dev-lessons-list {
+  padding-left: 22px;
+  color: #444;
+  line-height: 2.1;
+  font-size: 14px;
+}
+.dev-title-line {
+  color: #1a3c6e;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
